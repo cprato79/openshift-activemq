@@ -4,5 +4,5 @@ This repository provides a Dockerfile for ActiveMQ and a template to build and d
 
 Clone the repository and execute the following command in your cluster to deploy:
 ``` 
-  oc process -f openshift-template.yaml | oc apply -f - 
+  oc process -f https://raw.githubusercontent.com/cprato79/openshift-activemq/master/openshift-template.yaml | oc apply -f - 
 ``` 
